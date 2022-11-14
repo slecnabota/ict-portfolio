@@ -186,9 +186,6 @@ body {
 }
 
 @media(max-width:1050px) {
-    main, footer{
-        margin-top: 100px;
-    }
     .header-wrapper {
         flex-direction: column;
     }

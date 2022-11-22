@@ -1,7 +1,4 @@
-:root {}
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&family=Roboto:wght@400;500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +23,7 @@ li {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: black;
 }
 
@@ -48,9 +45,8 @@ body {
 
 .header-logo {
     text-align: center;
-    font-family: 'Josefin Slab', serif;
     font-weight: 500;
-    font-style: italic;
+    font-family: 'Raleway', sans-serif;
     color: white;
     font-size: 25px;
     padding: 5px 0;
@@ -110,6 +106,7 @@ body {
 .header-img img {
     width: 400px;
     border-radius: 100%;
+    border: 1px solid rgb(74, 20, 126);
     padding: 15px;
 }
 
@@ -593,8 +590,12 @@ section {
     padding: 80px 0;
 }
 
-.works .list {
-    color: white;
+.container {}
+
+.works-heading {}
+
+.list {
+    color: rgb(32, 183, 77);
 }
 
 .works-wrapper {
